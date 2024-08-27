@@ -9,6 +9,7 @@ nav
     align-items: center;
     justify-content: center;
     align-content: center;
+    
 }
 .image
 {
@@ -24,30 +25,30 @@ nav
     list-style: none;
     margin: 15px;
 }
-
-body
+img
 {
-    display: block;
+    width: 200px;
+    height: auto;
     border: 4px solid black;
-}
-main
-{
-    display: block;
-    background-color: white;
-    border: 4px solid black;
-    height: 600px;
     margin: 20px;
 }
-
-.html
-{   
-    width: 150px;
-    height: 150px;
-    margin: 15px;
-    border: 1px solid black;
-    float: left;
+.B
+{
+    margin-left: auto;
 }
-
+.text
+{
+    border: 4px solid black;
+    margin: 20px;
+}
+main {
+    display: flex; /* Adiciona flexbox ao container principal */
+    justify-content: center;
+    align-items: center;
+    align-content: center; /* Alinha os itens no centro verticalmente */
+    background-color: green;
+    flex-wrap: wrap;
+}
 #branco
 {
     display: flex;
